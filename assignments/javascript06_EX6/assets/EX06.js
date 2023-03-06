@@ -6,9 +6,28 @@ function jsStyle() {
 
 }
 
+function jsMove() {
+    text = document.getElementById("text");
+    text.style.left = parseInt(text.style.left) + 10 + "px";
+
+}
+
 //B
 function getFormValues() {
     alert(fname.value + " " + lname.value);
+
+}
+
+function howMany(){
+    amount = document.getElementById("regForm").getElementsByTagName("input");
+    totalVar = 0;
+
+    for(i=0; i < amount.length; i ++){
+        totalVar += 1;
+
+    }
+
+    console.log("Total Variable in Form:" + totalVar);
 
 }
 
@@ -21,14 +40,24 @@ function getOptions() {
 
 }
 
+function colorChanger(){
+    colorChange = document.getElementById("mySelect");
+    color = colorChange.value;
+    document.getElementById("EXC").style.backgroundColor = color;
+
+}
+
 
 //D
 document.getElementById("rb").onmouseover = function() {mouseOver()};
 	
 document.getElementById("rb").onmouseout = function() {mouseOut()};
 
+//JS6D
+ 
 function mouseOver(){
-    document.getElementById("rb").style.color = "red";
+    newColor = colorChanger();
+    document.getElementById("rb").style.color = newColor;
 };
 
 function mouseOut(){
@@ -47,7 +76,12 @@ function multiply(){
     result = value1 * value2;
     //console.log(result);
 
-    document.getElementById("result").innerHTML = value1 * value2;
+    answer  = value1 * value2;
+
+    //6E
+    aNodeM = document.createTextNode("The Product is " + answer);
+    document.body.appendChild(aNodeM);
+
 
 };
 
@@ -59,6 +93,9 @@ function divide(){
     
     value2 = document.getElementById("secondoperand").value;
     //console.log(value2);
-    document.getElementById("result").innerHTML = value1 / value2;
+    answer = value1 / value2;
+
+    aNodeD = document.createTextNode("The Dividened is " + answer);
+    document.body.appendChild(aNodeD);
 
 };
