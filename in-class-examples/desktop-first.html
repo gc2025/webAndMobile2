@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Desktop Rules */
+        body{
+            background: red;
+
+        }
+
+        /* Media Query start with biggest breakpoint: 1200px */
+        @media only screen and (max-width: 1200px){
+            body{
+                background: green;
+            }
+        }
+
+        /* Media Query start with less than: 800px */
+        @media only screen and (max-width: 800px){
+            body{
+                background: yellow;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="flexcontainer">
+        <div>Item1</div>
+        <div>Item2</div>
+        <div>Item3</div>
+        <div>Item4</div>
+        <div>Item5</div>
+
+    </div>
+    
+</body>
+</html>

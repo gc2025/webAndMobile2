@@ -1,0 +1,80 @@
+/*This code is for the Navigation Bar and will remain the same across all HTML documents*/
+
+.dropdown ul{
+    display: flex;
+    margin: 25px;
+    padding: 0px;
+    justify-content: space-around;
+    position: relative;
+
+    list-style: none;
+    background-color: #B6E3FD;
+
+}
+
+.dropdown li{
+    padding: 10px;
+    
+}
+
+.dropdown .submenu{
+    display: block;
+    position: absolute;
+    top: 39px;
+    opacity: 0;
+
+    background-color: #5FBDF4;
+    transition: 1s opacity;
+
+}
+
+.dropdown li:hover .submenu{
+    opacity: 100;
+
+}
+
+.dropdown li:hover{
+    background-color: white;
+
+}
+
+.sealOfWill{
+    position: relative;
+    float: left;
+    top: -25px;
+
+}
+
+/*End of Nav Bar*/
+
+.visit_form{
+    font-size: x-large;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+
+}
+
+form{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+body{
+    background-color: #87CFFA;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sealOfWill{
+        display: none;
+
+    }
+}

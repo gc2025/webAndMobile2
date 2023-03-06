@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Williamsport</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <nav class="dropdown">
+        <img src="assets/photos/williamsportSeal_100px.png" alt="Seal of Williamsport" class="sealOfWill">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+
+            <li>Shopping
+                <ul class="submenu">
+                    <li><a href="../shopping/localResturants/index.html">Local Resturants</a></li>
+                    <li><a href="../shopping/localShops/index.html">Local Shops</a></li>
+                    <li><a href="../shopping/localTheater/index.html"></a>Local Theater/Concert Venues</li>
+                </ul>
+
+            </li>
+
+            <li>Activities
+                <ul class="submenu">
+                    <li><a href="../activities/hiking/index.html">Hiking</a></li>
+                    <li><a href="../activities/reptileLand/index.html">Reptile land</a></li>
+                    <li><a href="../activities/littleLeaugeM/index.html">Little Leauge Museum</a></li>
+
+                </ul>
+
+            </li>
+
+            <li>Landmarks
+                <ul class="submenu">
+                    <li><a href="../landmarks/baldEagle/index.html">Bald Eagle State Park</a></li>
+                    <li><a href="../landmarks/pineC/index.html">Pine Creek State Park</a></li>
+                    <li><a href="../landmarks/loyalS/index.html">Loyalsock State Park</a></li>
+                    <li><a href="../landmarks/susqueP/index.html">Susquehanna State Park</a></li>
+
+                </ul>
+
+            </li>
+
+            <li>History
+                <ul class="submenu">
+                    <li><a href="../history/keyEvents/index.html">Key Events in Williamsport</a></li>
+                    <li><a href="../history/millionaireRow/index.html">Millionaire Row</a></li>
+
+                </ul>
+
+            </li>
+
+            <li>Contact
+                <ul class="submenu">
+                    <li><a href="https://cityofwilliamsport.org/">City Website</a></li>
+                    <li><a href="menu_forms/index.html">Feedback</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- 
+        This following section features the form that they can fill out
+        and can also be found later in the Contact -> Form after visit 
+    -->
+
+    <p class="visit_form">
+        Tell Us About Your Visit!!!
+
+    </p>
+
+    <form>
+
+        <label for="numOfPeop">How many people visited?:</label>
+        <input type="number" id="numOfPeop" name="numOfPeop">
+
+        </br>
+
+        <label for="date">When did you/or family Visit?;</label>
+        <input type="date" id="date" name="date">
+
+        </br>
+
+        <fieldset>
+            <p>Favorite Place to visit?:</p>
+            <input type="checkbox" id="repLand" name="location" value="Reptile_Land">
+            <label for="repLand">Reptile Land</label><br>
+            
+            <input type="checkbox" id="littleL" name="location" value="Little_Leauge_Museum">
+            <label for="littleL">Little Leauge Mueseum</label><br>
+
+            <input type="checkbox" id="baldE" name="location" value="Bald_Eagle_State_Park">
+            <label for="baldE">Bald Eagle State Park</label><br>
+
+            <input type="checkbox" id="pineC" name="location" value="Pine_Creek_State_Park">
+            <label for="pineC">Pine Creek State Park</label><br>
+
+            <input type="checkbox" id="loyalS" name="location" value="Loyalsock_State_Park">
+            <label for="loyalS">Loyalsock State Park</label><br>
+
+            <input type="checkbox" id="susQ" name="location" value="Susquehanna_State_Park">
+            <label for="susQ">Susquehanna State Park</label><br>
+
+        </fieldset>
+        
+        <label for="rateTrip">Rate your visit to Williamsport:</label>
+        <input type="range" id="rateTrip" name="rateTrip" min="0" max="10">
+
+        <br>
+
+        <label for="numOfPeop">How many people visited?:</label>
+        <input type="number" id="numOfPeop" name="numOfPeop">
+        
+        <br>
+        
+        <label for="submit">submit</label>
+        <input type="submit" id="numOfPeop" name="numOfPeop">
+
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+.picture{
+    display: block;
+    margin: auto auto;
+}
+
+.email{
+    margin-left: 40%;
+}
+
+body{
+    display: block;
+    background-color: blue;
+    background-image: url(assets/pictures/cutcube.png);
+    background-size: auto;
+    background-repeat: repeat;
+
+}
+
+header{
+    margin-left: 25px;
+}
+
+h1{
+    color: aqua;
+    text-shadow:2px 2px 2px white;
+
+}
+
+h2{
+    color: rgb(1, 255, 255);
+}
+
+p{
+    color:white;
+    margin-left: 50px;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+</head>
+<body>
+    <script>
+        var favColor = "Red"
+
+        function myColor(){
+            var colors = [1, 2, 3]
+            
+            //console.log(favColor);
+            //alert(favColor);
+            //favColor = "green";
+
+        }
+
+        myColor();
+
+        function validate(){
+            //first_name = document.getElementById("firstN");
+            //last_name = document.getElementById("lastN");
+
+            first_name = document.forms['contact']["first_name"].value;
+            last_name = document.forms['contact']["last_name"].value;
+
+            console.log(first_name.value);
+            console.log(local_name.value);
+
+            state = true;
+            errMessage = "";
+
+            if( first_name == "" ){
+                errMessage += "You Must Enter a First Name\n";
+                state = false;
+
+            }
+
+            if( last_name == "" ){
+                errMessage += "You Must Enter a Last Name";
+                state = false;
+
+            }
+
+            if( errMessage != "" ){
+                alert(errMessage);
+            }
+
+            return state;
+        }
+
+    </script>
+
+    <form name="contact" method="post" onsubmit="validate(); return false" action="process.php" >
+        
+        <input type="text" name="first_name" id="firstN">
+        <input type="text" name="last_name" id="lastN">
+        <input type="submit" name="submit" value="Continue">
+
+
+    </form>
+    
+</body>
+</html>

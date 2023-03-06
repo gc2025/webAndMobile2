@@ -1,0 +1,114 @@
+
+/*This code is for the Navigation Bar and will remain the same across all HTML documents*/
+
+
+.dropdown ul{
+    display: flex;
+    margin: 25px;
+    padding: 0px;
+    border-radius: 25px;
+    border: 5px solid #0871ae;
+    justify-content: space-around;
+    position: relative;
+
+    list-style: none;
+    background-color: #B6E3FD;
+
+}
+
+.dropdown li{
+    padding: 10px;
+    
+}
+
+.dropdown .submenu{
+    display: block;
+    position: absolute;
+    top: 39px;
+    opacity: 0;
+
+    background-color: #5FBDF4;
+    transition: 1s opacity;
+
+}
+
+.dropdown li:hover .submenu{
+    opacity: 100;
+
+}
+
+.dropdown li:hover{
+    background-color: white;
+
+}
+
+.sealOfWill{
+    position: relative;
+    float: left;
+    top: -25px;
+
+}
+
+/* End of Nav Bar Code */
+
+.photoM{
+    margin-left: 24%;
+    margin-right: 50%;
+    
+    border: 8px solid #0871ae;
+
+}
+
+.photo1{
+    display: flex;
+    float: right;
+
+    margin:20px;
+    border: 8px solid #0871ae;
+
+}
+
+.photo2{
+    display: flex;
+    float: left;
+
+    margin: 20px;
+    border: 8px solid #0871ae;
+
+}
+
+p{
+    margin-top: 25px;
+    margin-left: 15px;
+
+    font-size: large;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #87CFFA;
+
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sealOfWill{
+        display: none;
+
+    }
+}
