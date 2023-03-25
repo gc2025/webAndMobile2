@@ -64,6 +64,7 @@ form{
 body{
     background-color: #87CFFA;
     z-index: 2;
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 600px){
@@ -77,4 +78,6 @@ body{
         display: none;
 
     }
+=======
+>>>>>>> 08ac665 (Updated 3/1)
 }

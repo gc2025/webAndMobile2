@@ -1,0 +1,161 @@
+.grid_squares{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+
+    margin-left: 20%;
+
+    justify-content: space-between;
+    gap: 25px;
+
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
+
+.lilac_flower{
+    background-color: forestgreen;
+    position: relative;
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    transition: background 1s ;
+}
+
+.lilac_flower:hover{
+    background-color: purple;
+}
+
+.dogwood_flower{
+    background-color: forestgreen;
+    position:relative;
+
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    transition: background 1s ;
+
+}
+
+.dogwood_flower:hover{
+    background-color: purple;
+}
+
+.pansy_flower{
+    background-color: forestgreen;
+    position: relative;
+
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    transition: background 1s ;
+
+}
+
+.pansy_flower:hover{
+    background-color: purple;
+}
+
+.iris_flower{
+    background-color: forestgreen;
+    position: relative;
+
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    transition: background 1s ;
+
+}
+
+.iris_flower:hover{
+    background-color: purple;
+}
+
+.special_character{
+    position: absolute;
+
+    font-size: 120px;
+    color: rgb(39, 161, 39);
+    text-shadow: 2px 2px yellow ;
+
+    /* These top and left are to help show how this special character is placed in the box */
+    top: 10%;
+    left: 5%;
+}
+
+.flower_name{
+    position: absolute;
+
+    top:40%;
+    left: 25%;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: plum;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: lightskyblue;
+    border-bottom: black solid;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+  
+    /*This is the main css for the side bar*/
+
+body{
+    background-image: url(photos/side.jpg);
+    background-repeat: repeat-y;;
+
+}
+
+/* Media Queries - 600px < and > 500*/
+
+@media only screen and (max-width: 600px){
+    .grid_squares{
+        grid-template-columns: 250px;
+        grid-template-rows: auto auto auto auto;
+
+    }
+
+    body{
+        background-size: 100px;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-image: none;
+
+    }
+
+}

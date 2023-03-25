@@ -1,0 +1,40 @@
+.EXA{
+    margin: 25px;
+
+}
+
+.EXB{
+    margin: 25px;
+
+}
+
+.EXC{
+    margin: 25px;
+
+}
+
+.EXD{
+    margin: 25px;
+
+}
+
+.EXE{
+    margin: 25px;
+
+}
+
+hr{
+    border-top: 1px solid black;
+}
+
+h2{
+    text-decoration: underline 1px black;
+
+}
+
+body{
+    display: block;
+    background-color: skyblue;
+    background-image: url(photos/cutcube.png);
+    background-repeat: repeat;
+}
