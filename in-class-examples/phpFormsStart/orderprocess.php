@@ -11,6 +11,8 @@
 
     $pizzaSize = $_POST['pizzaSize'];
 
+    $pizzaTop = $_POST['topping']
+
     if($customerID == ""){
             echo "<p> Your forgot an ID, Go Back and re-submit </p>";
             echo "<form action='orderform.php' method='get'>
@@ -52,8 +54,24 @@
 
             }
 
+            switch($pizzaTop){
+                case 'N' :
+                    $toppingCost = 0;
+                
+                case '1' :
+                    $toppingCost = 2.00;
+                
+                case '2' :
+                    $toppingCost = 3.00;
+                
+                case '3' :
+                    $toppingCost = 3.75;
+
+            }
+
             $taxAmount =  $pizzaCost * .08;
-            $totalCost = $taxAmount + $pizzaCost;
+
+            $totalCost = $taxAmount + $pizzaCost + $toppingCost;
 
             die("Total Cost: " . $pizzaCost . " Size: " . $pizzaSize);
 
@@ -63,7 +81,9 @@
             echo "Tax: " . numfmt_format_currency($fmt, $totalCost, "USD");
 
             ?>
-
+                Pizza Price: <?php echo "Tax: " . numfmt_format_currency($fmt, $pizzaCost, "USD"); ?>
+                Topping Price: <?php echo "Tax: " . numfmt_format_currency($fmt, $toppingCost, "USD"); ?>
+                Tax Amount: <?php echo "Tax: " . numfmt_format_currency($fmt, $taxAmount, "USD"); ?>
                 Total: <?php  echo "Tax: " . numfmt_format_currency($fmt, $totalCost, "USD"); ?>. it will be ready in 5 mins
 
             <?php

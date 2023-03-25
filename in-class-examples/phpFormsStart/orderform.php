@@ -21,6 +21,15 @@
 		<input type="radio" name ="pizzaSize" value = "M"  id="medium" checked="true"/><label for="medium">Medium<label><br/>
 		<input type="radio" name ="pizzaSize" value = "L"  id="large"/><label for="large">Large<label>
 	</p>
+
+	<p> Select the number of toppings you want on your pizza:<br />
+	<!-- Note the <label> tags below that allow the user to click on the text! -->
+		<input type="radio" name ="topping" value = "N" id="none"/><label for="none">No Extra Toppings<label><br/>
+		<input type="radio" name ="topping" value = "1" id="oneT"/><label for="oneT">One Topping<label><br/>
+		<input type="radio" name ="topping" value = "2"  id="twoT" checked="true"/><label for="twoT">Two Toppings<label><br/>
+		<input type="radio" name ="topping" value = "3"  id="threeT"/><label for="threeT">Three Toppings<label>
+	</p>
+
 	<p>
 	<input type="submit"  name="Submit"  value=" Send Form"  />
 	</p>
