@@ -13,7 +13,7 @@
 
     $pizzaTop = $_POST['topping']
 
-    if($customerID == ""){
+    if(is_empty($_GET['customerID'])){
             echo "<p> Your forgot an ID, Go Back and re-submit </p>";
             echo "<form action='orderform.php' method='get'>
                 <input type='hidden' name='name' value='".$customerName."'/>
@@ -100,6 +100,6 @@
 
 <?php
 
-include($path . "assets/inc/footer.php")
+include($path . "assets/inc/footer.php");
 
 ?>
