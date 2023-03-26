@@ -75,16 +75,16 @@
 
             //die("Total Cost: " . $pizzaCost . " Size: " . $pizzaSize);
 
-            $fmt = numfmt_create( 'en_US', NumberFormatter::CURRENCY );
+            $fmt = numfmt_create('en_US',NumberFormatter::CURRENCY);
 
             //echo "Tax: " . numfmt_format_currency($fmt, $taxAmount, "USD");
             //echo "Tax: " . numfmt_format_currency($fmt, $totalCost, "USD");
 
             ?>
-                Pizza Price: <?php echo numfmt_format_currency($fmt, $pizzaCost, "USD"); ?> <br>
-                Topping Price: <?php echo numfmt_format_currency($fmt, $toppingCost, "USD"); ?> <br>
-                Tax Amount: <?php echo numfmt_format_currency($fmt, $taxAmount, "USD"); ?> <br>
-                Total: <?php echo numfmt_format_currency($fmt, $totalCost, "USD"); ?>. It will be ready in 5 mins. <br>
+                Pizza Price: <?php numfmt_format_currency($fmt, $pizzaCost, "USD"); ?> <br>
+                Topping Price: <?php numfmt_format_currency($fmt, $toppingCost, "USD"); ?> <br>
+                Tax Amount: <?php numfmt_format_currency($fmt, $taxAmount, "USD"); ?> <br>
+                Total: <?php  numfmt_format_currency($fmt, $totalCost, "USD"); ?>. It will be ready in 5 mins. <br>
 
             <?php
 
@@ -95,7 +95,6 @@
     }
 
 ?>
-<br><br>
 <?php
 
 include($path . "assets/inc/footer.php");
