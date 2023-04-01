@@ -1,0 +1,135 @@
+
+/*This code is for the Navigation Bar and will remain the same across all HTML documents*/
+
+
+.dropdown ul{
+    display: flex;
+    margin: 25px;
+    padding: 0px;
+    border-radius: 25px;
+    border: 5px solid #0871ae;
+    justify-content: space-around;
+    position: relative;
+
+    list-style: none;
+    background-color: #B6E3FD;
+
+}
+
+.dropdown li{
+    padding: 10px;
+    
+}
+
+.dropdown .submenu{
+    display: block;
+    position: absolute;
+    top: 39px;
+    opacity: 0;
+
+    background-color: #5FBDF4;
+    transition: 1s opacity;
+
+}
+
+.dropdown li:hover .submenu{
+    opacity: 100;
+
+}
+
+.dropdown li:hover{
+    background-color: white;
+
+}
+
+.sealOfWill{
+    position: relative;
+    float: left;
+    top: -25px;
+
+}
+
+/* End of Nav Bar Code */
+
+.welcome{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 29%;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+
+}
+
+.pa_img{
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 25px;
+    border: 5px solid #0871ae;
+
+}
+
+.source_state_photo{
+    margin-left: 29%;
+    margin-right: 29%;
+
+}
+
+.info_for_williamsport_section_1{
+    font-size: x-large;
+    margin-left: 20px;
+
+}
+
+.photo_of_williamsport{
+    display: flex;
+    float: right;
+
+    margin-right: 50px;
+    border: 5px solid #0871ae;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+
+    margin-bottom: -15px;
+
+}
+
+.haveFun{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 29%;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+}
+
+body{
+    background-color: #87CFFA;
+
+<<<<<<< HEAD
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sealOfWill{
+        display: none;
+
+    }
+=======
+>>>>>>> 08ac665 (Updated 3/1)
+}
