@@ -6,9 +6,9 @@
 	include($path . "assets/inc/nav.php");
 ?>
 
-    <h1>Key Events in Williamsport History</h1>
+    <h1 class ="keyeventsh1">Key Events in Williamsport History</h1>
 
-    <p>
+    <p class = "keyeventsp">
         As we all know every city has a history to it, whther it be bad like Salem Massachusets, or as good as the Big Apple, Williamsport had its fair share of history with buisness
         families, and newer oppurtunities along the way, here are some major key events that has happened in Williamsport:
 

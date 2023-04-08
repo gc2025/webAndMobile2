@@ -5,11 +5,11 @@
     include($path . "assets/inc/header.php");
 	include($path . "assets/inc/nav.php");
 ?>
-    <h1>Bald Eagle State Park</h1>
+    <h1 class = beh1>Bald Eagle State Park</h1>
     
     <img src="assets/pictures/baldEagle.png" alt="Bald Eagle Beach" class="beach">
 
-    <p>
+    <p class = beparagraph>
         <img src="assets/pictures/lodge_sunset.jpg" alt="lodge Sunset" class="lodge">
         <img src="assets/pictures/baldeagleAnimal.jpg" alt="Bald Eagle on Land" class="animal">
         Bald Eagle State Park is a park that is located about an hour away from Williamsport, at this state park there are many activities that anyone no matter what age can do anything.

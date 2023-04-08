@@ -7,7 +7,7 @@
 
 ?>
 
-<h1>Little Leaugue Museum</h1>
+<h1 class="llMh1">Little Leaugue Museum</h1>
 <img src="assets/pictures/museumPhoto.png" alt="Little Leauge Museum" class="photoM">
 <p class="infoOfMuseum">
         The Little Leauge Museum houses alot of history from williamsport over the years, espcially youth baseball. Little Leaugue baseball is a yearly event in Williasmport that brings everyone from around

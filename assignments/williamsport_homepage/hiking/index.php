@@ -6,8 +6,8 @@
 	include($path . "assets/inc/nav.php");
 
 ?>
-    <h1>Hiking</h1>
-    <h3 class="easy trails">
+    <h1 class = "hikingh1">Hiking</h1>
+    <h3 class="hikingh3">
         When it comes to trails we all know that there are different types and degrees of hiking trails, especially in the appalacian
         mountain range, so heres a list of different trails in Williamsport or near that you can go to.
 
@@ -15,9 +15,9 @@
     
      <div class="blueBirdTrail">
 
-        <h2>Blue Bird Trail- WMWA Water Shed</h2>
-        <h3>Difficulty: Easy, Length: 2.4 Miles, Rating: 4.4/5</h3>
-        <div class="photo">
+        <h2 class = "hikingh2">Blue Bird Trail- WMWA Water Shed</h2>
+        <h3 class = "hikingh3">Difficulty: Easy, Length: 2.4 Miles, Rating: 4.4/5</h3>
+        <div class="hikingPhoto">
             <img src="assets/pictures/waterfall_of_blue_b.png">
         </div>
         <p class="blueB">
@@ -43,9 +43,9 @@
 
 
 
-    <h2>Susquehanna River Walk and Timber Trail- Williamsport, PA</h2>
-    <h3>Difficulty: Easy, Length: 11.0 Miles, Rating: 4.4/5</h3>
-    <div class="photo">
+    <h2 class = "hikingh2">Susquehanna River Walk and Timber Trail- Williamsport, PA</h2>
+    <h3 class = "hikingh3">Difficulty: Easy, Length: 11.0 Miles, Rating: 4.4/5</h3>
+    <div class="hikingPhoto">
         <img src="assets/pictures/river_walk_sunset (1).png" alt="sunset on the river walk">
     
     </div>
@@ -71,9 +71,9 @@
 
     <br><br><br><br><br><br><br><br><br><br>
 
-    <h2>Raccoon Mountain- Williasmport</h2>
-    <h3>Difficulty: Moderate, Length: 6.2, Rating: 4.4/5</h3>
-    <div class="photo">
+    <h2 class = "hikingh2">Raccoon Mountain- Williasmport</h2>
+    <h3 class = "hikingh3">Difficulty: Moderate, Length: 6.2, Rating: 4.4/5</h3>
+    <div class="hikingPhoto">
         <img src="assets/pictures/raccoon_mountain.png" alt="Bridge On Raccoon Mountain">
     
     </div>
@@ -100,9 +100,9 @@
 
     <br><br><br><br><br><br><br><br><br><br>
 
-    <h2>Smiths Knob Trail- Loyalsock State forest</h2>
-    <h3>Difficulty: Hard, Length: 4.8, Rating: 4.6/5</h3>
-    <div class="photo">
+    <h2 class = "hikingh2">Smiths Knob Trail- Loyalsock State forest</h2>
+    <h3 class = "hikingh3">Difficulty: Hard, Length: 4.8, Rating: 4.6/5</h3>
+    <div class="hikingPhoto">
         <img src="assets/pictures/smiths_knob.png" alt="Smith Knob Vista">
     
     </div>

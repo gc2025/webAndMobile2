@@ -113,10 +113,283 @@ h1{
     text-shadow: 2px 2px white;
 }
 
+/* Bald Eagle */
+.beach{
+    margin-left: 24%;
+    margin-right: 50%;
+        
+    border: 8px solid #0871ae;
+
+}
+
+.animal{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.lodge{
+    display: flex;
+    float: left;
+
+    margin: 35px;
+
+    border: 8px solid #0871ae;
+
+}
+
+.beparagraph{
+    font-size: x-large;
+
+}
+
+.beh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Hiking Page */
+.hikingPhoto{
+    display: flex;
+    float: right;
+    border: 5px solid #0871ae;
+    margin-left: 5px;
+    margin-right: 25px;
+
+}
+
+.blueB{
+    font-size: large;
+}
+
+.river_walk{
+    font-size: large;
+
+}
+
+.raccMoun{
+    font-size: large;
+
+}
+
+.smithK{
+    font-size: large
+
+}
+
+.hikingh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+
+}
+
+.hikingh2{
+    font-size: x-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    margin-bottom: -5px;
+
+}
+
+.hikingh3{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+/* Key Events */
+.mRoss{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.willH{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.sBoom{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.gFire{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+}
+
+.keyeventsp{
+    font-size: x-large;
+    margin: 35px;
+
+}
+
+.keyeventsh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Little Leaugue Museum */
+.photoM{
+    margin-left: 24%;
+    margin-right: 50%;
+    
+    border: 8px solid #0871ae;
+
+}
+
+.photo1{
+    display: flex;
+    float: right;
+
+    margin:20px;
+    border: 8px solid #0871ae;
+
+}
+
+.photo2{
+    display: flex;
+    float: left;
+
+    margin: 20px;
+    border: 8px solid #0871ae;
+
+}
+
+.infoOfMueseum{
+    margin-top: 25px;
+    margin-left: 15px;
+
+    font-size: large;
+}
+
+.llMh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Local Resturants */
+.brickY1, .brickY2, .brickY3{
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.bullF1, .bullF2, .bullF3{
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.boom1, .boom2, .boom3{
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.lRp{
+    font-size: x-large;
+    margin: 35px;
+
+}
+
+.lrh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Local Shops */
+.ottoS, .custoS, .le-chocolatS{
+    border: 8px solid #0871ae;
+    margin: 35px;
+
+    display:flex;
+    float: right;
+}
+
+.lSp{
+    font-size: x-large;
+    
+
+}
+
+.lSh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Local Theater */
+
+
+
 body{
     background-color: #87CFFA;
 
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 600px){
@@ -130,6 +403,4 @@ body{
         display: none;
 
     }
-=======
->>>>>>> 08ac665 (Updated 3/1)
 }

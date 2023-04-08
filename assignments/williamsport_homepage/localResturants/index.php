@@ -6,15 +6,15 @@
 	include($path . "assets/inc/nav.php");
 
 ?>
-   <h1>Local Resturants</h1>
+   <h1 class="lrh1">Local Resturants</h1>
 
-   <p>
+   <p class = "lRp">
         Here in Williamsport there are many local resturants but there are some that you need to come and try, or people come and these are the first places that they go to, to eat:
    </p>
 
     <h1>The Brickyard</h1>
     <h2>Rating: 4.1/5</h2>
-    <p>
+    <p class = "lRp">
         The Brickyard is a local bar that specializes in american bar and pub food, especially burgers, and wings. This resturant is also connected to another resturant that is a little bit more "fancier" and has italian disheds
         and has wood oven pizza for sale.
         <br>  
@@ -45,7 +45,7 @@
 
     <h1>The Bull Frog Brewery</h1>
     <h2>Rating: 4/5</h2>
-    <p>
+    <p class = "lRp">
         The Bull Frog Brewery is also a local bar that specializes in American pub and bar food but also specialize in there own IPA. in the resturant while you eat you can see the processes that it takes in order for them to make their own IPAs, they also sell these drinks locally
         at our wegmans area. 
         <br>  
@@ -73,7 +73,7 @@
 
     <h1>Boom City Brewery</h1>
     <h2>Rating: 4/5</h2>
-    <p>
+    <p class = "lRp">
         The Boom City Brewery and Bar specialize in American Pub and Grill as well as wood oven pizza. the reason they are very different from Bullfrog or anyone else is that they started their buisness off brewing out of their own house, and then decided to invest in a resturant
         to start selling their own IPAs in their own resturant
         <br>  
