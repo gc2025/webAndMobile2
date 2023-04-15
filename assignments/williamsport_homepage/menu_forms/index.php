@@ -11,7 +11,7 @@
 
     </p>
 
-    <form>
+    <form class = "menuform">
 
         <label for="numOfPeop">How many people visited?:</label>
         <input type="number" id="numOfPeop" name="numOfPeop">
@@ -59,6 +59,7 @@
         <input type="submit" id="numOfPeop" name="numOfPeop">
 
     </form>
+    
 <?php
     include($path . "assets/inc/footer.php");
 ?>

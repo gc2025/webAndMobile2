@@ -5,8 +5,8 @@
     include($path . "assets/inc/header.php");
 	include($path . "assets/inc/nav.php");
 ?>
-    <h1>Millionaire Row</h1>
-    <p>
+    <h1 class = "mRh1">Millionaire Row</h1>
+    <p class = "mRp">
         In a special street of williamsport there is a special row of houses here that we call the Millionaire Row, due to the houses/homes that were built during the 1800s are still thriving and living here
         despite being very ol the houses still have their original materials and looks that they would have normally have during this time period. 
         <br>
@@ -22,7 +22,7 @@
         project of the year
 
         <br>
-        <img src="assets/pictures/peterHhouse.png" alt="Peter Herdic House" class="photo">
+        <img src="assets/pictures/peterHhouse.png" alt="Peter Herdic House" class="mRphoto">
 
         <br>
         <br>
@@ -34,7 +34,7 @@
 
         <br>
 
-        <img src="assets/pictures/firstBchurch.png" alt="First Baptist Church" class="photo">
+        <img src="assets/pictures/firstBchurch.png" alt="First Baptist Church" class="mRphoto">
 
         <br>
         <br>
@@ -45,7 +45,7 @@
         still stands behind it and is now a private clubhouse
         <br>
 
-        <img src="assets/pictures/smithUhouse.png" alt="Smith Ulman House" class="photo">
+        <img src="assets/pictures/smithUhouse.png" alt="Smith Ulman House" class="mRphoto">
 
         <br>
         <br>

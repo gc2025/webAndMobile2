@@ -6,13 +6,13 @@
 	include($path . "assets/inc/nav.php");
 
 ?>
-    <h1>Pine Creek State Park</h1>
+    <h1 class = "pCh1">Pine Creek State Park</h1>
 
-    <img src="assets/pictures/littleP_park.png" alt="Picture of Little Pine" class="parkPhoto">
+    <img src="assets/pictures/littleP_park.png" alt="Picture of Little Pine" class="PCparkPhoto">
 
-    <p>
-        <img src="assets/pictures/lakePhoto.png" alt="Picture of Lake" class="lakePhoto">
-        <img src="assets/pictures/troutPic.png" alt="Picture of Person Holding trout" class="troutPhoto">
+    <p class = "pCp">
+        <img src="assets/pictures/lakePhoto.png" alt="Picture of Lake" class="PClakePhoto">
+        <img src="assets/pictures/troutPic.png" alt="Picture of Person Holding trout" class="PCtroutPhoto">
 
         Here at Little Pine State Park this is about an hour away from Williamsport which is located in Jersey Shore which is a neighboring city, the land here at the park spans over 2,158 acres and is surrounded
         by multiple mountains in theiir Tiadaghton forest.

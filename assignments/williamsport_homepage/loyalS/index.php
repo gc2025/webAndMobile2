@@ -5,10 +5,10 @@
     include($path . "assets/inc/header.php");
 	include($path . "assets/inc/nav.php");
 ?>
-    <h1>Loyalsock State Park</h1>
+    <h1 class = "lsh1">Loyalsock State Park</h1>
 
     <img src="assets/pictures/loyalS_forest.png" alt="Photo of a lake in park" class="parkPhoto">
-    <p>
+    <p class = "lsp">
         <img src="assets/pictures/camping.png" alt="camping" class="campingPhoto">
         <img src="assets/pictures/waterfall.png" alt="waterfall on trail" class="waterFPhoto">
 

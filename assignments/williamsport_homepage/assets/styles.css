@@ -385,7 +385,242 @@ h1{
 
 /* Local Theater */
 
+.ctlO, .cacO{
+    border: 8px solid #0871ae;
+    margin: 35px;
 
+    display:flex;
+    float: right;
+}
+.lp{
+    font-size: x-large;
+    margin: 35px;
+
+}
+
+.lh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Loyalsock State Park */
+.parkPhoto{
+    margin-left: 25%;
+    margin-right: 50%;
+        
+    border: 8px solid #0871ae;
+
+}
+
+.campingPhoto{
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+    display: flex;
+    float: right;
+
+}
+
+.waterFPhoto{
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+    
+    display: flex;
+    float: left;
+}
+
+.lsp{
+    font-size: x-large;
+
+}
+
+.lsh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Form FOr Visit */
+.visit_form{
+    font-size: x-large;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+
+}
+
+.menuform{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+/* Millionare Row */
+.mRphoto{
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+
+}
+
+.mRp{
+    font-size: x-large;
+    margin: 35px;
+
+}
+
+.mRh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Pine Creek */
+.PCparkPhoto{
+    margin-left: 25%;
+    margin-right: 50%;
+        
+    border: 8px solid #0871ae;
+
+}
+
+.PClakePhoto{
+    border: 8px solid #0871ae;
+    display: flex;
+    float: right;
+
+    margin: 35px;
+
+}
+
+.PCtroutPhoto{
+    border: 8px solid #0871ae;
+    display: flex;
+    float: left;
+
+    margin: 35px;
+    
+}
+
+.pCp{
+    font-size: x-large;
+
+}
+
+.pCh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+/* Reptile Land */
+.RLphoto{
+    border: 5px solid #0871ae;
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+
+.RLvideo{
+    border: 5px solid #0871ae;
+    display: flex;
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+
+}
+
+.rep_build{
+    margin-left: 24%;
+    margin-right: 50%;
+    
+    border: 8px solid #0871ae;
+
+}
+
+.RLli{
+    font-size: large;
+
+}
+
+.RLh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+
+}
+
+/* Susquehanna Park */
+.SPparkPhoto{
+    margin-left: 25%;
+    margin-right: 50%;
+        
+    border: 8px solid #0871ae;
+
+}
+
+.SPboatPhoto{
+    display: flex;
+    float: left;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+}
+
+.SPriverPhoto{
+    display: flex;
+    float: right;
+
+    border: 8px solid #0871ae;
+
+    margin: 35px;
+}
+
+.SPp{
+    font-size: x-large;
+
+}
+
+.SPh1{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
 
 body{
     background-color: #87CFFA;
