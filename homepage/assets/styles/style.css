@@ -9,11 +9,7 @@
 
 body{
     display: block;
-<<<<<<< HEAD
     background-color:skyblue;
-=======
-    background-color: blue;
->>>>>>> 08ac665 (Updated 3/1)
     background-image: url(assets/pictures/cutcube.png);
     background-size: auto;
     background-repeat: repeat;
