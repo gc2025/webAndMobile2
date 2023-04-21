@@ -6,4 +6,4 @@
     //echo json_decode($myData);
     
     var_dump($myData);
-?>
+?>klxj,˜≈
