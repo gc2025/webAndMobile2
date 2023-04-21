@@ -1,6 +1,9 @@
 
 /*This code is for the Navigation Bar and will remain the same across all HTML documents*/
+nav{
+    z-index: 2;
 
+}
 
 .dropdown ul{
     display: flex;

@@ -48,6 +48,7 @@
             <ul class="submenu">
                 <li><a href="https://cityofwilliamsport.org/">City Website</a></li>
                 <li><a href="<?php echo $path ?>menu_forms/index.php">Feedback</a></li>
+                <li><a href="<?php echo $path ?>comments/index.php">Comments Form</a></li>
             </ul>
         </li>
 
