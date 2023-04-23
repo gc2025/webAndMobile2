@@ -18,14 +18,14 @@
     
     <p class="info_for_williamsport_section_1">
         Williamsport is located in the Northeastern portion of Pennsylvania in a county called Lycoming, which consists of 1866 different
-        Cities and 1806 Boroughs. Even though Williasmport is an older city, and is rich with history, when compared to others, it is still bustling around as any other,
-        with special events around the city and alot to offer whether its outside activies in nature to the bustling Resturants.
+        Cities and 1806 Boroughs. Even though Williamsport is an older city, and is rich with history, when compared to others, it is still bustling around as any other,
+        with special events around the city and a lot to offer whether its outside activities in nature to the bustling Restaurants.
 
         <br>
         <br>
 
-        In the Navigtation Bar at the top, you can go through the different selections to see what Williamsport has to offer whether it is activties, history, or 
-        just to explore. Or if you would like visit <a href="https://visitlycomingcounty.com/group-tours/">Visit Lycoming County</a> to recieve more maps, secret
+        In the Navigation Bar at the top, you can go through the different selections to see what Williamsport has to offer whether it is activities, history, or 
+        just to explore. Or if you would like visit <a href="https://visitlycomingcounty.com/group-tours/">Visit Lycoming County</a> to receive more maps, secret
         locations, or to tour around the city.
 
         <br>

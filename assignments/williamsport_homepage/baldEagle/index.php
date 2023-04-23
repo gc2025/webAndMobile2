@@ -12,8 +12,8 @@
     <p class = beparagraph>
         <img src="assets/pictures/lodge_sunset.jpg" alt="lodge Sunset" class="lodge">
         <img src="assets/pictures/baldeagleAnimal.jpg" alt="Bald Eagle on Land" class="animal">
-        Bald Eagle State Park is a park that is located about an hour away from Williamsport, at this state park there are many activities that anyone no matter what age can do anything.
-        At this park they have their own trails that you can hike on, you can camp at the park at different areas, you can also hunt and fish in their area for anyone that like sto do that,
+        Bald Eagle State Park is a park that is located about an hour away from Williamsport. At this state park there are many activities that anyone no matter what age can do anything.
+        At this park they have their own trails that you can hike on, you can camp at the park at different areas, you can also hunt and fish in their area for anyone that like to do that,
         Wildlife photography and Wildlife Watch and of course boating as well.
 
         <br>
