@@ -7,6 +7,7 @@
 
 ?>
 
+<br>
 
 <h1>
 
@@ -140,11 +141,14 @@
 
 <hr>
 
-<h1>
-    
-
+<h1 class = "gradingSheetHeader">
+    Grading Sheet
 </h1>
 
+<p class = "gradingSheetP">
+        In the website you can see a good example of the acronym C.R.A.P. (Contrast, Repetition, Alignment, and Proximity), espcially through consitent colors and web design on alignment and sizing. When it comes to the information the correct sources of where information
+        was gathered from as well as photos. With all of the information gathered correct grammar and interesting facts are used to pull in the reader to possibly come to said location.
+</p>
 
 <?php
     include($path . "assets/inc/footer.php");

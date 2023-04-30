@@ -674,6 +674,11 @@ h1{
     text-decoration: underline;
 }
 
+.gradingSheetP{
+    font-weight: bold;
+
+}
+
 body{
     background-color: #87CFFA;
 
