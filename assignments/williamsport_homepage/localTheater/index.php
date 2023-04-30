@@ -1,5 +1,5 @@
 <?php
-    $title = "Local Shops";
+    $title = "Local Theater";
     $path = "../";
 
     include($path . "assets/inc/header.php");
