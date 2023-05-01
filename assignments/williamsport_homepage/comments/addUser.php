@@ -4,19 +4,19 @@
 	* Return false if connection failed.
 	*/
 
-	include("../dbcon.php");
+	include("dbcon.php");
 
-	if(!empty($_GET['first']) && !empty($_GET['last'])){
-		$sql = "INSERT INTO `240Ajax2198` (`first`, `last`) VALUES (?, ?);";
+	if(!empty($_GET['name']) && !empty($_GET['commentbox'])){
+		$sql = "INSERT INTO `comments` (`name`, `comment`, `date`) VALUES (?,?, now());";
 
 		$stmt = $conn->prepare($sql);
-		$stmt->bind_param("ss", $_GET['first'], $_GET['last']);
+		$stmt->bind_param("ss", $_GET['name'], $_GET['commentbox']);
 		$stmt->execute();
 		$stmt->close();
 
 	}
 
-	$sql = "SELECT * FROM `240Ajax2198` LIMIT 50 ";
+	$sql = "SELECT * FROM `comments` LIMIT 50";
 	
 	$result = $conn->query($sql);
 	
