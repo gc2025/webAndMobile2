@@ -29,41 +29,7 @@
         <br>
         Here are some pictures of some of their dishes that they have to offer:
 
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
 
-    // Next/previous controls
-    function changeSlide(n) {
-        showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("BrickPic");
-        
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        if (n > slides.length){
-            slideIndex = 1;
-        }
-        
-        if (n < 1){
-            slideIndex = slides.length;
-        }
-        
-        newSlideIndex = slideIndex - 1;
-        slides[newSlideIndex].style.display = "block";
-    }
-
-</script>
 
     <div class = brickSlide>
         <div class="BrickPic fade">
@@ -83,10 +49,26 @@
             <img src="assets/pictures/nachos.png" alt="nachos" class="brickY3"> 
 
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
         
     </div> 
+
+    <script>
+        let slideIndex = 0;
+        
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("brickSlide");
+        console.log(slides.length)
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        
+        showSlides();
+
+    </script>
 
     </p>
 

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .navContainer{
+            display: flex;
+            background-color: lightblue;
+            justify-content: space-around;
+
+        }
+
+        @media only screen and (max-width: 1000px) and (min-width: 650px) {
+            .navContainer{
+                background-color: green;
+
+            }
+        }
+
+        @media only screen and (max-width: 650px) {
+            .navContainer{
+                background-color: red;
+
+            }
+        }
+
+        ul.nav{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+    </style>
+
+    
+
+    <div class = "navContainer">
+        <div class = "item">Home</div>
+        <div class = "item">About</div>
+        <div class = "item">Contact</div>
+
+    </div>
+    
+    <ul class = nav>
+        <li>i dont know</li>
+
+    </ul>
+
+    <script>
+        function validate(){
+
+            if(document.getElementById("first").value == ""){
+
+                alert("You forgot a piece of your login");
+                return false;
+
+            }else{
+                alert("You have successfully logged in!!!")
+                return true
+
+            }
+
+            
+
+        }
+
+    </script>
+
+    <hr>
+
+    <form onsubmit="return validate()" method="GET">
+        First Name: <input type = "text" name = "first" id = "first" /> <br>
+        Last Name: <input type = "text" name = "last" id = "last"/> <br>
+        Password:  <input type = "text" name = "pass" id = "pass"/> <br>
+
+        <input type = "submit"/>
+
+
+    </form>
+
+    <br>
+    <br>
+
+    <hr>
+
+    <script>
+
+        function add(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+
+            console.log(num1);
+            console.log(num2);
+
+
+            var result = parseInt(num1) + parseInt(num2);
+
+            console.log(result);
+
+            document.getElementById("result").innerHTML = result;
+
+        }
+
+    </script>
+
+    <input type="text" name="num1" id="num1"/> + <input type="text" name="num2" id="num2"/> = <span id="result">0</span>
+    <br>
+    <button onclick="add()">Calculate</button>
+
+</body>
+</html>
