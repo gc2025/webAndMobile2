@@ -12,7 +12,7 @@
         $fullName = $_GET[ 'fName' ];
         $comment = $_GET[ 'CommentBox' ];
         
-        $stmt = $conn->prepare("INSERT INTO `comments` (`name`, `comment`, `lastModfiedDate`VALUES ('Gabriel Carson', 'obnvolaknOLDKSNVoknvs', now())");
+        $stmt = $conn->prepare("INSERT INTO `comments` (`name`, `comment`, `lastModfiedDate`VALUES (?,?)");
 	    $stmt->bind_param("ss", $fullName, $comment);
 	    $stmt->execute();
 	    $stmt->close();

@@ -684,6 +684,12 @@ body{
 
 }
 
+.dropdown .nav>li{width:auto;vertical-align:top;float:left;border-bottom:4px solid transparent;padding-bottom:10px;-webkit-transition:border-bottom 0.5s ease;-moz-transition:border-bottom 0.5s ease;-ms-transition:border-bottom 0.5s ease;-o-transition:border-bottom 0.5s ease;transition:border-bottom 0.5s ease;cursor:pointer;}
+.dropdown .nav>li>a{display:block;font-size:16px;position:relative;color:#999999;margin:0;padding:0px 20px;line-height:36px;border-right:1px solid #e0e0e0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.dropdown .nav>.active>a,.dropdown .nav>.active>a:hover{color:#222222;text-shadow:none;background-color:transparent;}
+.dropdown .nav li:hover,.dropdown .nav>.active{border-bottom:4px solid #5bc0de;}
+.dropdown,body>.content{float:none;width:auto;margin-left:20px;margin-right:20px;}
+
 @media only screen and (max-width: 600px){
     body{
         display: flex;

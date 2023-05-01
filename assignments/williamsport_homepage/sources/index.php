@@ -147,7 +147,8 @@
 
 <p class = "gradingSheetP">
         In the website you can see a good example of the acronym C.R.A.P. (Contrast, Repetition, Alignment, and Proximity), espcially through consitent colors and web design on alignment and sizing. When it comes to the information the correct sources of where information
-        was gathered from as well as photos. With all of the information gathered correct grammar and interesting facts are used to pull in the reader to possibly come to said location.
+        was gathered from as well as photos. With all of the information gathered correct grammar and interesting facts are used to pull in the reader to possibly come to said location. When it comes to how tohe pages are set up they are used so everyone,
+        and everyone can access it with ease by using the navigational bar and everything is labelled for anything no matter where it is located. On top of easy access everything in the code validates and is labelled with the correct tags.
 </p>
 
 <?php
