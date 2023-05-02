@@ -373,7 +373,7 @@ h1{
     to {opacity: 1}
 }
 
-.brickY1, .brickY2, .brickY3{
+.BrickPic{
     border: 8px solid #0871ae;
     margin: 35px;
 }
@@ -385,7 +385,7 @@ h1{
 
 }
 
-.boom1, .boom2, .boom3{
+.boomP{
     border: 8px solid #0871ae;
 
     margin: 35px;
@@ -678,6 +678,114 @@ h1{
     font-weight: bold;
 
 }
+
+/* Slideshow CSS */
+
+.brickSlide{
+    position: relative;
+    margin: auto;
+}
+
+.BrickPic{
+    display:none;
+    width: 100%;
+
+}
+
+.boom{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+
+.boomP{
+    display:none;
+    width: 100%;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.welcomeContainer {
+    color: #e5e5e5;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px black;
+    margin: 5px;
+}
+  
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+}
+  
+.animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+  
+.animation div:first-child {
+    animation: text-animation 20s infinite;
+}
+  
+.first div {
+    background-color:#20a7d8;
+}
+.sec div {
+    background-color:#0871ae;
+}
+.third div {
+    background-color:grey;
+}
+  
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    15% {margin-top: -2.81rem;}
+    20% {margin-top: -5.62rem;}
+    25% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    35% {margin-top: -8.43rem;}
+    40% {margin-top: -11.24rem;}
+    45% {margin-top: -11.24rem;}
+    50% {margin-top: -11.24rem;}
+    55% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    65% {margin-top: -11.24rem;}
+    70% {margin-top: -8.43rem;}
+    75% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    85% {margin-top: -2.81rem;;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+}
+  
 
 body{
     background-color: #87CFFA;

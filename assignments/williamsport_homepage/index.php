@@ -8,7 +8,15 @@
 ?>
 
 <!-- Opening Words and Photo -->
-    <p class="welcome">Welcome To Williamsport!!!</p>
+    <div class = "welcomeContainer">
+        <p>Welcome To </p>
+        <section class = "animation">
+            <div class = "first"><div>Williamsport</div></div>
+            <div class = "sec"><div>Lycoming County</div></div>
+            <div class = "third"><div>Susquehanna Valley</div></div>
+        </section>
+    </div>
+
     <img src="assets/pictures/williamsport_county-removebg-preview.png" class="pa_img">
     <p class="source_state_photo">Source:<a href="https://visitlycomingcounty.com/group-tours/">Visit Lycoming County</a></p>
     
