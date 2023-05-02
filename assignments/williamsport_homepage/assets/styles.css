@@ -363,22 +363,12 @@ h1{
     top: 0;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
 .BrickPic{
     border: 8px solid #0871ae;
     margin: 35px;
 }
 
-.bullF1, .bullF2, .bullF3{
+.bullFP{
     border: 8px solid #0871ae;
 
     margin: 35px;
@@ -684,35 +674,40 @@ h1{
 .brickSlide{
     position: relative;
     margin: auto;
+    justify-content: center;
 }
 
 .BrickPic{
     display:none;
-    width: 100%;
 
 }
 
 .boom{
-    max-width: 1000px;
     position: relative;
     margin: auto;
+    justify-content: center;
 
 }
 
 .boomP{
     display:none;
-    width: 100%;
 
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.bullF{
+    position: relative;
+    margin-left: 30%;
+    margin-right: 50%;
 }
+
+.bullFP{
+    display:none;
+}
+
 
 .prev, .next {
     cursor: pointer;
-    position: absolute;
+    position: inherit;
     top: 50%;
     width: auto;
     margin-top: -22px;
@@ -725,6 +720,11 @@ h1{
     user-select: none;
 }
 
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 .welcomeContainer {
     color: #e5e5e5;
     font-size: 3rem;
@@ -733,7 +733,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 5px black;
+    border: solid 5px #0871ae;
     margin: 5px;
 }
   
@@ -808,5 +808,16 @@ body{
     .sealOfWill{
         display: none;
 
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dropdown ul{
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 }

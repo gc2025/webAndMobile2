@@ -33,55 +33,56 @@
 
 
             <div class = brickSlide>
-                <div class="BrickPic fade">
+                <div class="BrickPic">
                     <img src="assets/pictures/brickyard-club.png" alt="CLub Sandwhich" class="brickY1">    
 
                 </div>
 
-                <div class="BrickPic fade">
+                <div class="BrickPic ">
                     <img src="assets/pictures/burger.png" alt="Burger" class="brickY2">
 
                 </div>
 
-                <div class="BrickPic fade">
+                <div class="BrickPic">
                     <img src="assets/pictures/nachos.png" alt="nachos" class="brickY3"> 
 
                 </div>
                 
             </div> 
 
-            <button class="prev" onclick="plusDivs(-1)">❮</button>
-            <button class="next" onclick="plusDivs(1)">❯</button>
+            
 
         </p>
-        
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("BrickPic");
+                if (n > x.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+            }
+
+        </script>
+        <button class="prev" onclick="plusDivs(-1)">❮</button>
+        <button class="next" onclick="plusDivs(1)">❯</button>    
     </div>
 
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function currentDiv(n) {
-            showDivs(slideIndex = n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("BrickPic");
-            if (n > x.length) {slideIndex = 1}    
-            if (n < 1) {slideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[slideIndex-1].style.display = "block";  
-        }
-
-    </script>
-
+   
+    
     <br>
     <br>
     <div>
@@ -103,17 +104,17 @@
             <br>
             Here are some pictures of some of their dishes that they have to offer:
 
-        <div claass="bullF">
-            <img src="assets/pictures/bullEgg.png" alt="Tater Tots W/ Egg" class="bullF">
-            <img src="assets/pictures/bullNoodle.png" alt="Noodle Dish" class="bullF">
-            <img src="assets/pictures/bullWrap.png" alt="Club Wrap" class="bullF">
+        <div class="bullF">
+            <img src="assets/pictures/bullEgg.png" alt="Tater Tots W/ Egg" class="bullFP">
+            <img src="assets/pictures/bullNoodle.png" alt="Noodle Dish" class="bullFP">
+            <img src="assets/pictures/bullWrap.png" alt="Club Wrap" class="bullFP">
 
         </div>
         </p>
-
+  
         <button class="prev" onclick="plusDivsBF(-1)">❮</button>
         <button class="next" onclick="plusDivsBF(1)">❯</button>
-
+ 
     </div>
 
     <script>
@@ -130,7 +131,7 @@
 
         function showDivsBF(n) {
             var i;
-            var x = document.getElementsByClassName("bullF");
+            var x = document.getElementsByClassName("bullFP");
             if (n > x.length) {slideIndex = 1}    
             if (n < 1) {slideIndex = x.length}
             for (i = 0; i < x.length; i++) {
@@ -140,7 +141,6 @@
         }
 
     </script>
-
     <div>
         <h1>Boom City Brewery</h1>
         <h2>Rating: 4/5</h2>
@@ -168,6 +168,7 @@
             </div>
             <button class="prev" onclick="plusDivsBC(-1)">❮</button>
             <button class="next" onclick="plusDivsBC(1)">❯</button>
+    
         </p>
     </div>
     
@@ -196,6 +197,7 @@
         }
 
     </script>
+
 <?php
     include($path . "assets/inc/footer.php");
 ?>

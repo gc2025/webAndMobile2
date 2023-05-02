@@ -12,7 +12,7 @@
         $fullName = $_GET[ 'fName' ];
         $comment = $_GET[ 'CommentBox' ];
         
-        $stmt = $conn->prepare("INSERT INTO `comments` (`name`, `comment`, `lastModfiedDate`VALUES (?,?)");
+        $stmt = $conn->prepare("INSERT INTO `comments` (`name`, `comment`) VALUES (?,?)");
 	    $stmt->bind_param("ss", $fullName, $comment);
 	    $stmt->execute();
 	    $stmt->close();
@@ -40,7 +40,7 @@
 	</head>
 	<body>
 		<hr/>
-        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br>
 		<h3>Comment Form</h3>
 		<form action="index.php" method="get">		
 			Name(First and Last): <input type="text" id="fName" name="fName"/>
@@ -53,7 +53,7 @@
 			<ul>
 			<?php
 				foreach($records as $record){
-					echo ("<li>" . $record['name'] . " " . $record['comment'] . " @ " . $record['date'] . "</li>");
+					echo ("<li>" . $record['name'] . ": " . $record['comment'] . " @ " . $record['date'] . "</li>");
 				}
 			?>
 			</ul>
