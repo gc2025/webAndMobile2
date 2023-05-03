@@ -150,6 +150,26 @@
         was gathered from as well as photos. With all of the information gathered correct grammar and interesting facts are used to pull in the reader to possibly come to said location. When it comes to how tohe pages are set up they are used so everyone,
         and everyone can access it with ease by using the navigational bar and everything is labelled for anything no matter where it is located. On top of easy access everything in the code validates and is labelled with the correct tags.
 </p>
+<hr>
+<h1 class = "gradingSheetHeader">
+    Grading Sheet *Updated*
+</h1>
+
+<p class = "gradingSheetP">
+        In the website you can see a good example of the acronym C.R.A.P. (Contrast, Repetition, Alignment, and Proximity), espcially through consitent colors and web design on alignment and sizing. When it comes to the information the correct sources of where information
+        was gathered from as well as photos. With all of the information gathered correct grammar and interesting facts are used to pull in the reader to possibly come to said location. When it comes to how tohe pages are set up they are used so everyone,
+        and everyone can access it with ease by using the navigational bar and everything is labelled for anything no matter where it is located. On top of easy access everything in the code validates and is labelled with the correct tags.
+</p>
+
+<ol>
+    <li>Main Javascript</li>
+    <ul><li>The main Javascript used was for one of the slideshows in the Resturant sections</li></ul>
+    <li>DHTML</li>
+    <ul><li>This is used on the first page for the welcome to and then the different words for everything that relates to williamsport</li></ul>
+    <li>Extras</li>
+    <ul><li>There was more use of javascript two more times on that same page for two of the other locations as well</li></ul>
+
+</ol>
 
 <?php
     include($path . "assets/inc/footer.php");
